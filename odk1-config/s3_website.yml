@@ -43,6 +43,7 @@ routing_rules:
       http_redirect_code: 301
 
 
+# For hash redirects, add pathname along with old and new hash to /shared-src/_static/hash-redirects.json
 redirects:
   # use url/index.html syntax to enable url, url/, url/index.html and hash passthrough
   aggregate-do/index.html: aggregate-digital-ocean
